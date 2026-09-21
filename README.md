@@ -1,8 +1,8 @@
 # Prompt Action :robot:
 
-[![Run Tests](https://github.com/FidelusAleksander/prompt-action/actions/workflows/test-action.yml/badge.svg)](https://github.com/FidelusAleksander/prompt-action/actions/workflows/test-action.yml)
+[![Run Tests](https://github.com/v-fidelusaleksander/prompt-action/actions/workflows/test-action.yml/badge.svg)](https://github.com/v-fidelusaleksander/prompt-action/actions/workflows/test-action.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/FidelusAleksander/prompt-action)](https://github.com/FidelusAleksander/prompt-action/releases)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/v-fidelusaleksander/prompt-action)](https://github.com/v-fidelusaleksander/prompt-action/releases)
 
 A GitHub Action that lets you Prompt AI directly in your workflows.
 
@@ -20,13 +20,13 @@ A GitHub Action that lets you Prompt AI directly in your workflows.
 ### Simple prompting
 
 ```yaml
-- uses: FidelusAleksander/prompt-action@v2
+- uses: v-fidelusaleksander/prompt-action@v2
   with:
     prompt: 'What is the meaning of life?'
 ```
 
 ```yaml
-- uses: FidelusAleksander/prompt-action@v2
+- uses: v-fidelusaleksander/prompt-action@v2
   with:
     system-prompt: 'You are Gilfoyle from Silicon Valley.'
     prompt: 'Tell me about your latest project.'
@@ -38,7 +38,7 @@ You can ensure the model returns data in a specific format by providing a
 [JSON Schema](https://json-schema.org/implementers/interfaces).
 
 ```yaml
-- uses: FidelusAleksander/prompt-action@v2
+- uses: v-fidelusaleksander/prompt-action@v2
   id: prompt
   with:
     prompt: |
@@ -88,7 +88,7 @@ You can create dynamic prompts using `{{ variable }}` syntax with the usage of
 the `vars` parameter.
 
 ```yaml
-- uses: FidelusAleksander/prompt-action@v2
+- uses: v-fidelusaleksander/prompt-action@v2
   with:
     system-prompt: |
       You are a {{ language }} expert translator. 

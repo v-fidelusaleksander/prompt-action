@@ -2,16 +2,16 @@
   "name": "prompt-action",
   "version": "2.0.0",
   "description": "GitHub Action for AI Prompts",
-  "author": "FidelusAleksander",
+  "author": "v-fidelusaleksander",
   "type": "module",
   "private": true,
-  "homepage": "https://github.com/FidelusAleksander/prompt-action",
+  "homepage": "https://github.com/v-fidelusaleksander/prompt-action",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FidelusAleksander/prompt-action.git"
+    "url": "git+https://github.com/v-fidelusaleksander/prompt-action.git"
   },
   "bugs": {
-    "url": "https://github.com/FidelusAleksander/prompt-action/issues"
+    "url": "https://github.com/v-fidelusaleksander/prompt-action/issues"
   },
   "keywords": [
     "actions",
